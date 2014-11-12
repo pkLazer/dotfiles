@@ -15,6 +15,7 @@ set wildmode=longest,list:full " How to complete <Tab> matches.
 "set tildeop             " Makes ~ an operator.
 set virtualedit=block   " Support moving in empty space in block mode.
 set mouse=a             " Vim follows mouse click
+set scrollbind          " Enable scrolling via mouse wheel
 
 " Low priority for these files in tab-completion.
 set suffixes+=.aux,.bbl,.blg,.dvi,.log,.pdf,.fdb_latexmk     " LaTeX
